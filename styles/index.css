@@ -1,0 +1,237 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.header-menu-toggle {
+    position: fixed;
+    right: 38px;
+    top: 24px;
+    height: 42px;
+    width: 42px;
+    font-family: "montserrat-medium", sans-serif;
+    font-size: x-large;
+    letter-spacing: 3px; 
+}
+.header-menu-text {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -70px;
+    width: 90px;
+    padding-left: 12px;
+    color: rgb(47, 138, 47);
+    background-color: black;
+  }
+.header-menu-text:hover{
+  color: white;
+  transition: 2s;
+}
+.Glint-Hello_There{
+  background-color: rgb(58, 174, 58);
+  height: 650px;
+  text-align: center;
+  padding-top: 130px;
+}
+.border-bottom{
+  border-bottom: 1px solid rgb(131, 226, 131);
+  margin: 15px 475px 40px 475px;
+  padding-bottom: 35px;
+  text-align: center;
+}
+.inline{
+  display: inline-block;
+}
+.color-white{
+  color: white;
+  font-size: 60px;
+}
+.bold{
+  font-weight: bolder;
+}
+.justify{
+  width: 725px;
+  margin-left: 325px;
+  text-align: justify;
+  margin-bottom: 80px;
+}
+.Awards_Received{
+  border-right: 1px solid rgb(131, 226, 131);
+  width: 250px;
+}
+.Cups_of_Coffee{
+  border-right: 1px solid rgb(131, 226, 131);
+  width: 250px;
+}
+.Projects_Completed{
+  border-right: 1px solid rgb(131, 226, 131);
+  width: 250px;
+}
+.Happy_Clients{
+  width: 250px;
+}
+.What_We_Do{
+  background-color:white;
+  height: 900px;
+}
+.border-bottom-2{
+  border-bottom: 1px solid grey;
+  margin: 15px 430px 40px 430px;
+  padding-bottom: 35px;
+  text-align: center;
+}
+.bold-2{
+  font-weight: bolder;
+  margin-left: 620px;
+  color:rgb(58, 179, 58) ;
+  margin-top: 100px;
+}
+.icon{
+  color: rgb(58, 179, 58);
+  display: inline-block;
+  vertical-align: top;
+  font-size: 45px;
+}
+.Services{
+  width: 550px;
+  display: inline-block;
+}
+.Services-Details{
+  width: 450px;
+  display: inline-block;
+  margin-left: 20px;
+}
+.Services-Details>p{
+  color: grey;
+  font-size: larger;
+  margin-top: 20px;
+}
+.margin-left{
+  margin-left: 150px;
+}
+.margin-top{
+  margin-top: 50px;
+}
+.Recent_Works{
+  background-color: white;
+  height: 2000px;
+}
+.black{
+  height: 500px;
+  background-color: black;
+}
+.row-1{
+  height: 500px;
+}
+.border-bottom-3{
+  font-size: larger;
+  color: white;
+  border-bottom: 1px solid grey;
+  margin: 15px 400px 40px 400px;
+  padding-bottom: 35px;
+  text-align: center;
+}
+.img-width{
+  width: 500px;
+  
+}
+.Our_Clients{
+  background-color: rgba(128, 128, 128, 0.223);
+  height: 1150px;
+}
+.padding-top{
+  padding-top: 125px;
+}
+.color-2{
+  width: 720px;
+  margin-left: 300px;
+  text-align: center;
+  font-size: 23px;
+}
+.marquee{
+  width: 940px;
+  height: 100px;
+  margin-left: 200px;
+  overflow: hidden;
+}
+.marquee-track{
+  display: flex;
+  width: max-content;
+  animation: scroll 15s linear infinite;
+}
+.marquee img{
+  width: 100px;
+  height: 100px;
+  opacity: 40%;
+  margin-right: 30px;
+}
+.marquee img:hover{
+  opacity: 100%;
+}
+@keyframes scroll{
+  from{
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(-50%);
+  }
+}
+.line{
+  width: 500px;
+  background-color: rgb(181, 174, 174);
+  height: 1px;
+  margin-left: 400px;
+  margin-top: 130px;
+  margin-bottom: 70px;
+}
+.Our-clients{
+    position: relative;
+    width: 850px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.Active{
+    text-align: center;
+    opacity: 1;
+    visibility: visible;
+    position: relative;
+}
+ .Active>img{
+  width: 100px;
+  border-radius: 50%;
+  margin-top: 75px;
+ }
+.Active>p{
+  font-size: xx-large;
+  color: rgb(90, 89, 89);
+ }
+.client_name{
+  font-weight: bolder;
+  font-size: large;
+  margin-left: 390px;
+ }
+.client_position{
+  color: grey;
+  margin-left: 390px;
+  margin-top: 15px;
+}
+.circles{
+  margin-left: 390px;
+}
+.circle{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 35px;
+}
+.circle-1{
+  background-color: rgb(58, 179, 58);
+  margin-left: 260px;
+}
+.circle-2{
+  background-color: grey;
+  margin-left: 5px;
+}
+
+
+
