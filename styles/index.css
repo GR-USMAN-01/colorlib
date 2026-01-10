@@ -28,7 +28,11 @@
 }
 .Glint-top{
   height: 750px;
+  width: 100%;
+  background-image: url('/images/BG-Grass.jpeg');
   background-color: rgba(0, 0, 0, 0.918);
+  opacity: 85%;
+
 }
 .Glint-top>img{
   width: 90px;
@@ -149,7 +153,6 @@
 .Recent_Works{
   background-color: white;
   height: 2000px;
-  padding-top: ;
 }
 .black{
   height: 570px;
@@ -353,15 +356,21 @@ h4{
   margin-left: 50px;
 }
 .Email-Address{
-  background-color:  black ;
-  background: none;
+   background-color: rgba(95, 95, 95, 0.538);
   margin-top: 20px;
+  color: grey;
+  width: 250px;
+  border: none;
+  height: 30px;
+  
 }
 .SUBSCRIBE{
   background-color:rgb(17, 127, 17) ;
   color: white;
-  width: 50px;
-  background: none;
+  width: 100px;
+  height: 30px;
+  border: none;
+  
 }
 .color-grey{
   color: grey;
