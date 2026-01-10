@@ -26,6 +26,41 @@
   color: white;
   transition: 2s;
 }
+.Glint-top{
+  height: 750px;
+  background-color: rgba(0, 0, 0, 0.918);
+}
+.Glint-top>img{
+  width: 90px;
+  margin-left: 40px;margin-top: 40px;
+
+}
+.Glint-top>p{
+  margin-left: 205px;
+  margin-top: 150px;
+}
+.size{
+  width: 670px;
+  margin-left: 200px
+}
+.transition{
+  color: white;
+  border: 2px solid white;
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 70px;
+}
+.transition:hover{
+  background-color: white;
+  color: black;
+  transition: 2s;
+}
+.Start_a_Project{
+  margin-left: 200px
+}
+.More_About_Us{
+  margin-left: 15px;
+}
 .Glint-Hello_There{
   background-color: rgb(58, 174, 58);
   height: 650px;
