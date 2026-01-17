@@ -29,7 +29,7 @@
 .Glint-top{
   height: 750px;
   width: 100%;
-  background-image: url('/images/BG-Grass.jpeg');
+  background-image: url('../images/BG-Grass.jpeg');
   background-color: rgba(0, 0, 0, 0.918);
   opacity: 85%;
 
@@ -362,6 +362,7 @@ h4{
   width: 250px;
   border: none;
   height: 30px;
+  text-align: center;
   
 }
 .SUBSCRIBE{
